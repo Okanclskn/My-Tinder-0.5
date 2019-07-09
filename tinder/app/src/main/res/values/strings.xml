@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Tinder</string>
+    <string-array name="cities_options">
+        <item name="Şehir Seçiniz">Şehir Seçiniz</item>
+        <item name="Adana">Adana</item>
+        <item name="Adıyaman">Adıyaman</item>
+        <item name="Afyon ">Afyon</item>
+        <item name="Ağrı ">Ağrı</item>
+        <item name="Amasya">Amasya</item>
+        <item name="Ankara">Ankara</item>
+        <item name="Antalya">Antalya</item>
+        <item name="Artvin">Artvin</item>
+        <item name="Aydın">Aydın</item>
+        <item name="Balıkesir">Balıkesir</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="İsim"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Soyisim" />
+
+    <EditText
+        android:id="@+id/RPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/RePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şifre Doğrulama"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/R-Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-Posta"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Doğum Tarihi"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/spinner_dialog"
+        android:layout_width="213.5dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:spinnerMode="dialog" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/PPicture"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="Profil Resmi Yükleyin" />
+
+        <ImageView
+            android:id="@+id/PpUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kayıt Ol" />
+</LinearLayout>
